@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: 'link',
-    title: 'copy',
+    title: 'Copy link text',
     contexts: ['link'],
   });
 });
